@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "thunderfire/node-status",
+	"version": "1.0.0",
+	"title": "THUNDERFIRE Node Status",
+	"category": "widgets",
+	"icon": "dashboard",
+	"description": "Display real-time health of a THUNDERFIRE autonomous node.",
+	"keywords": ["iot", "node", "health", "thunderfire", "autonomous"],
+	"attributes": {
+		"nodeId": {
+			"type": "string",
+			"default": ""
+		},
+		"showTheta": {
+			"type": "boolean",
+			"default": true
+		},
+		"refreshInterval": {
+			"type": "number",
+			"default": 30
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"textdomain": "thunderfire",
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css"
+}

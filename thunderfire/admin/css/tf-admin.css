@@ -1,0 +1,145 @@
+/**
+ * THUNDERFIRE Admin Styles
+ */
+
+.tf-settings-page {
+	max-width: 800px;
+}
+
+.tf-test-connection-wrapper {
+	margin: 1em 0;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+#tf-connection-status {
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+#tf-connection-status.success {
+	color: #00a32a;
+}
+
+#tf-connection-status.error {
+	color: #d63638;
+}
+
+/* Dashboard Widget */
+.tf-dashboard-widget .tf-fleet-summary {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+.tf-node-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tf-node-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 0;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.tf-node-item:last-child {
+	border-bottom: none;
+}
+
+.tf-node-name {
+	flex: 1;
+	font-weight: 500;
+}
+
+.tf-health-bar {
+	width: 100px;
+	height: 8px;
+	background: #dcdcde;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.tf-health-fill {
+	height: 100%;
+	display: block;
+	border-radius: 4px;
+	transition: width 0.3s ease;
+}
+
+.tf-health-good .tf-health-fill {
+	background: #00a32a;
+}
+
+.tf-health-warning .tf-health-fill {
+	background: #dba617;
+}
+
+.tf-health-critical .tf-health-fill {
+	background: #d63638;
+}
+
+.tf-health-percent {
+	width: 40px;
+	text-align: right;
+	font-size: 0.9em;
+	color: #646970;
+}
+
+.tf-recent-alerts {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 1px solid #dcdcde;
+}
+
+.tf-recent-alerts h4 {
+	margin: 0 0 0.5em;
+	font-size: 0.9em;
+}
+
+.tf-recent-alerts ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.tf-recent-alerts li {
+	padding: 4px 0;
+}
+
+.tf-alert-critical {
+	color: #d63638;
+}
+
+.tf-alert-warning {
+	color: #dba617;
+}
+
+.tf-widget-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 1px solid #dcdcde;
+}
+
+.tf-last-update {
+	font-size: 0.85em;
+	color: #646970;
+}
+
+/* Admin Bar Alert */
+.tf-admin-bar-alerts .tf-alert-count {
+	background: #d63638;
+	color: #fff;
+	border-radius: 10px;
+	padding: 0 6px;
+	font-size: 11px;
+	margin-left: 4px;
+}

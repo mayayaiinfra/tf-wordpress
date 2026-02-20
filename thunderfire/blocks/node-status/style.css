@@ -1,0 +1,11 @@
+/**
+ * Node Status Block Styles
+ */
+
+.tf-block-placeholder {
+	padding: 2em;
+	background: #f6f7f7;
+	border: 1px dashed #dcdcde;
+	text-align: center;
+	color: #646970;
+}

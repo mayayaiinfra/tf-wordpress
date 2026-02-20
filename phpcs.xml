@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="THUNDERFIRE WordPress Plugin">
+    <description>WordPress Coding Standards for THUNDERFIRE plugin</description>
+    <rule ref="WordPress"/>
+    <rule ref="WordPress-Extra"/>
+    <config name="minimum_supported_wp_version" value="6.0"/>
+    <config name="testVersion" value="8.0-"/>
+    <arg name="extensions" value="php"/>
+    <file>thunderfire/</file>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>tests/*</exclude-pattern>
+</ruleset>

@@ -1,0 +1,233 @@
+/**
+ * THUNDERFIRE Public Styles
+ */
+
+.tf-node-status,
+.tf-fleet-overview,
+.tf-alert-feed {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Node Status Card */
+.tf-status-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 1.5em;
+	max-width: 300px;
+}
+
+.tf-status-card.tf-health-good {
+	border-color: #00a32a;
+}
+
+.tf-status-card.tf-health-warning {
+	border-color: #dba617;
+}
+
+.tf-status-card.tf-health-critical {
+	border-color: #d63638;
+}
+
+.tf-node-id {
+	margin: 0 0 0.5em;
+	font-size: 1.1em;
+}
+
+.tf-health-display {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.tf-health-value {
+	display: block;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.tf-health-label {
+	font-size: 0.9em;
+	color: #666;
+}
+
+.tf-health-bar {
+	height: 10px;
+	background: #eee;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.tf-health-fill {
+	height: 100%;
+	border-radius: 5px;
+	transition: width 0.3s ease;
+}
+
+.tf-health-good .tf-health-fill {
+	background: #00a32a;
+}
+
+.tf-health-warning .tf-health-fill {
+	background: #dba617;
+}
+
+.tf-health-critical .tf-health-fill {
+	background: #d63638;
+}
+
+.tf-theta-status {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+
+.tf-chitral-fields {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.85em;
+}
+
+.tf-chitral-fields li {
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+/* Fleet Overview Table */
+.tf-fleet-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tf-fleet-table th,
+.tf-fleet-table td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.tf-fleet-table th {
+	background: #f6f7f7;
+	font-weight: 600;
+}
+
+.tf-health-bar-small {
+	width: 60px;
+	height: 6px;
+	background: #eee;
+	border-radius: 3px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+/* Alert Feed */
+.tf-alert-feed h4 {
+	margin: 0 0 0.5em;
+}
+
+.tf-alert-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tf-alert-list li {
+	padding: 8px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+.tf-alert-info {
+	background: #f0f6fc;
+	border-left: 3px solid #0073aa;
+}
+
+.tf-alert-warning {
+	background: #fcf9e8;
+	border-left: 3px solid #dba617;
+}
+
+.tf-alert-critical {
+	background: #fcf0f1;
+	border-left: 3px solid #d63638;
+}
+
+.tf-no-alerts {
+	color: #666;
+	font-style: italic;
+}
+
+/* WooCommerce Health Card */
+.tf-woo-node-health {
+	margin: 1em 0;
+}
+
+.tf-woo-health-card {
+	background: #f6f7f7;
+	border-radius: 6px;
+	padding: 1em;
+}
+
+.tf-woo-health-card h4 {
+	margin: 0 0 0.5em;
+	font-size: 0.9em;
+}
+
+.tf-woo-status {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tf-woo-health-badge {
+	background: #00a32a;
+	color: #fff;
+	padding: 4px 12px;
+	border-radius: 12px;
+	font-weight: 600;
+}
+
+.tf-woo-health-warning .tf-woo-health-badge {
+	background: #dba617;
+}
+
+.tf-woo-health-critical .tf-woo-health-badge {
+	background: #d63638;
+}
+
+.tf-woo-theta {
+	margin-top: 0.5em;
+	font-size: 0.85em;
+	color: #666;
+}
+
+/* Sidebar Widget */
+.tf-widget-status {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.tf-status-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ccc;
+}
+
+.tf-health-good .tf-status-dot {
+	background: #00a32a;
+}
+
+.tf-health-warning .tf-status-dot {
+	background: #dba617;
+}
+
+.tf-health-critical .tf-status-dot {
+	background: #d63638;
+}

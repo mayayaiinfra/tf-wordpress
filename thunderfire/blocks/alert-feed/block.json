@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "thunderfire/alert-feed",
+	"version": "1.0.0",
+	"title": "THUNDERFIRE Alert Feed",
+	"category": "widgets",
+	"icon": "warning",
+	"description": "Display recent THUNDERFIRE alerts.",
+	"keywords": ["iot", "alerts", "notifications", "thunderfire"],
+	"attributes": {
+		"limit": {
+			"type": "number",
+			"default": 5
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "thunderfire",
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css"
+}
