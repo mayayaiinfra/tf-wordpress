@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit
+    bootstrap="tests/bootstrap.php"
+    colors="true"
+    testdox="true"
+>
+    <testsuites>
+        <testsuite name="THUNDERFIRE WordPress Plugin">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <directory suffix=".php">thunderfire/includes</directory>
+        </include>
+    </coverage>
+</phpunit>
