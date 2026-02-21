@@ -1,5 +1,10 @@
 # THUNDERFIRE WordPress Plugin
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
+[![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4.svg)](https://php.net)
+[![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-21759B.svg)](https://wordpress.org)
+[![PHPUnit Tests](https://img.shields.io/badge/tests-39%20passing-brightgreen.svg)](tests/)
+
 WordPress + WooCommerce plugin for THUNDERFIRE autonomous node management.
 
 ## Features
